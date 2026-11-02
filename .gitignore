@@ -3,27 +3,30 @@
 !/.gitignore
 !/.gitattributes
 !/README.md
-!/*.mp4
-!/app/
-!/docs/
-/docs/*
-!/docs/SPEC.md
-!/docs/split.md
-!/demo/
-/demo/*
-!/demo/fixtures/
-/demo/fixtures/*
-!/demo/fixtures/heirloom.json
+!/C2/
+/C2/*
+!/C2/README.md
+!/C2/*.mp4
+!/C2/app/
+!/C2/docs/
+/C2/docs/*
+!/C2/docs/SPEC.md
+!/C2/docs/split.md
+!/C2/demo/
+/C2/demo/*
+!/C2/demo/fixtures/
+/C2/demo/fixtures/*
+!/C2/demo/fixtures/heirloom.json
 
 # Inside app/: secrets, local TideCloak state, build output
-app/.env
-app/.env.*
-!app/.env.example
-app/data/*
-!app/data/.gitkeep
-app/node_modules/
-app/.next/
-app/next-env.d.ts
+C2/app/.env
+C2/app/.env.*
+!C2/app/.env.example
+C2/app/data/*
+!C2/app/data/.gitkeep
+C2/app/node_modules/
+C2/app/.next/
+C2/app/next-env.d.ts
 *.tsbuildinfo
 *.log
 *.mv.db
@@ -32,5 +35,5 @@ app/next-env.d.ts
 Thumbs.db
 
 # Public walkthrough build output and Vercel link (rebuilt by app/walkthrough/build.mjs)
-app/walkthrough/dist/
+C2/app/walkthrough/dist/
 .vercel/
