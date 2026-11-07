@@ -3,6 +3,9 @@
 !/.gitignore
 !/.gitattributes
 !/README.md
+!/C1/
+/C1/*
+!/C1/README.md
 !/C2/
 /C2/*
 !/C2/README.md
